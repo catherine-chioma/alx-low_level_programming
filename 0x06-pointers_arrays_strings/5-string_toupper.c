@@ -13,11 +13,11 @@ char *string_toupper(char *word)
 
 	while (word[length] != '\0')
 	{
-		if (word[length] >= 97 && word[lenth] <= 122)
+		if (word[length] >= 97 && word[length] <= 122)
 		{
-			word]length] = word[length] - 32;
+			word[length] = word[length] - 32;
 		}
-		lenth++;
+		length++;
 	}
 	return (word);
 }
