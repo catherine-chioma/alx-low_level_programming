@@ -22,9 +22,9 @@ void print_triangle(int size)
 					_putchar('#');
 			}
 			n--;
-			_putchar('\n');
+			putchar('\n');
 		}
 	}
 	else
-		_putchar('\n');
+		putchar('\n');
 }
