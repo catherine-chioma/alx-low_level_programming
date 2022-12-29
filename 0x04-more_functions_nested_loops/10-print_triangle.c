@@ -3,7 +3,7 @@
 /**
  * print_triangle - create triangle
  * @size: params
- * Return: 0
+ *  Return: 0
  */
 
 void print_triangle(int size)
@@ -17,12 +17,12 @@ void print_triangle(int size)
 			for (j = 0; j < size; j++)
 			{
 				if (j < n)
-
 					_putchar(' ');
-				else
-					_putchar('\n');
 			}
-		}
-		else
+			n--;
 			_putchar('\n');
+		}
 	}
+	else
+		_putchar('\n');
+}
